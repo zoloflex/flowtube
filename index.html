@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Loader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Video Loader</h1>
+        <div class="video-controls">
+            <input type="text" id="videoIdInput" placeholder="Enter YouTube Video ID">
+            <button id="loadVideoBtn">Load</button>
+        </div>
+        <div class="video-preview">
+            <img id="videoThumbnail" src="" alt="Video Thumbnail" style="display:none;">
+            <p id="videoTitle" class="video-title"></p>
+        </div>
+
+        <div class="youtube-video">
+            <iframe title="YouTube video player" loading="lazy" src="https://www.youtube.com/embed/OOE4olCjUoI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    <script src="js1.js"></script>
+</body>
+</html>
